@@ -45,12 +45,3 @@ body:
       description: Add any other context about the problem here.
     validations:
       required: false
-
-  - type: checkboxes
-    attributes:
-      label: Final verification
-      options:
-        - label: I have ensure there is not other active issue regarding this problem.
-        - required: true
-    validations:
-      required: true
