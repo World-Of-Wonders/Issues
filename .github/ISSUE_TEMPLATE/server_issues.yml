@@ -1,7 +1,16 @@
 name: Server issue
 description: Report an issue on the Minecraft server
+title: "[BUG: Server] "
 labels: [ "needs triage", "bug" ]
+assignees:
+  - xaanndeer
 body:
+  - type: input
+    attributes:
+      label: Your Minecraft username
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Describe the bug
@@ -26,20 +35,17 @@ body:
   - type: textarea
     attributes:
       label: Installed mods
-      description: |
-        A list of installed mods on your client. A third party launcher counts as a mod!
+      description: A list of installed mods on your client. A third party launcher counts as a mod!
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Other
-      description: |
-        Add any other context about the problem here.
+      description: Add any other context about the problem here.
     validations:
       required: false
 
   - type: markdown
     attributes:
-      value: |
-        Before submitting this issue, please ensure there isn't already an issue regarding this.
+      value: Before submitting this issue, please ensure there isn't already an issue regarding this.
