@@ -51,5 +51,5 @@ body:
       label: Final verification
       options:
         - label: I have ensure there is not other active issue regarding this problem.
-      validations:
-        required: true
+    validations:
+      required: true
