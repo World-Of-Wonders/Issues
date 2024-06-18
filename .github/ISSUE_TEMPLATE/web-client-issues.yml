@@ -1,7 +1,7 @@
 name: Web client issue
 description: Report an issue with the web client (audio client)
 title: "[BUG: Web client] "
-labels: [ "needs triage", "bug" ]
+labels: [ "status: needs triage", "type: bug" ]
 assignees:
   - xaanndeer
   - LBeukennoot

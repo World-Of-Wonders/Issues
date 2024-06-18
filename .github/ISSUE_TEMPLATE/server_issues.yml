@@ -1,7 +1,7 @@
 name: Server issue
 description: Report an issue on the Minecraft server
 title: "[BUG: Server] "
-labels: [ "needs triage", "bug" ]
+labels: [ "status: needs triage", "type: bug" ]
 assignees:
   - xaanndeer
 body:
