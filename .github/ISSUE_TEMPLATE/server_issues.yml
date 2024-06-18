@@ -46,6 +46,11 @@ body:
     validations:
       required: false
 
-  - type: markdown
+  - type: checkboxes
     attributes:
-      value: Before submitting this issue, please ensure there isn't already an issue regarding this.
+      label: Final verification
+      options:
+        - label: I have ensure there is not other active issue regarding this problem.
+          required: true
+      validations:
+        required: true
