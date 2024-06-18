@@ -1,0 +1,47 @@
+name: Wonders Unleashed issue
+description: Report an issue with the Wonders Unleashed mod
+title: "[BUG: Wonders Unleashed] "
+labels: [ "status: needs triage", "type: bug" ]
+assignees:
+  - xaanndeer
+body:
+  - type: input
+    attributes:
+      label: Your Minecraft username
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the issue is.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: A clear description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: This may include screenshots, a video, or detailed instructions to help reconstruct the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Installed mods
+      description: A list of installed mods on your client. A third party launcher counts as a mod!
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Other
+      description: Add any other context about the problem here.
+    validations:
+      required: false
