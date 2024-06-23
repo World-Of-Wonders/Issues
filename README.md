@@ -14,12 +14,12 @@ Go to the 'Issues' tab, this can be found in the top left of the page.
 Add a new issue by clicking on the green 'New Issue' button.
 
 ### Step 4
-Choose the location where the issue occurred. You can choose:
-- Server (from the Minecraft server)
-- Wonders Unleased (from the mod)
-- Web Client (from the page after using /audio)
-- Website (from https://world-of-wonders.net/)
-- Exploit
+Choose a template:
+- Server (for the Minecraft server)
+- Wonders Unleashed (for the mod)
+- Web client (for the page after using /audio)
+- Website (for https://world-of-wonders.net/)
+- Exploit (for sensitive problems)
 
 ### Step 5
 Fill in the fields and submit the issue.
@@ -29,4 +29,4 @@ We received the issue, all updates will be shown within the issue page. Make sur
 
 ## When will my issue be resolved?
 
-We're working our asses off to perfectionize World of Wonders. We hope to get to your issue as soon as possible!
+We're working really hard on perfecting World of Wonders. We hope to get to your issue as soon as possible!
